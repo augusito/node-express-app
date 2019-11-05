@@ -67,7 +67,7 @@ app.use((req, res, next) => {
 // handlers
 app.use('/auth', auth);
 app.use('/', home);
-app.use('/users', passport.authenticate('jwt', {session: false}), users);
+app.use('/users', users);
 
 // 404 error handler
 app.use((req, res, next) => {
