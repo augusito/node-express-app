@@ -1,0 +1,7 @@
+{
+  "name": "Node express app",
+  "description": "A backend Node.js app using Express 4",
+  "repository": "https://github.com/augusito/node-express-app.git",
+  "keywords": ["node", "express"],
+  "image": "heroku/nodejs"
+}
