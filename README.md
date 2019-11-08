@@ -47,7 +47,7 @@ Request:
 $ http POST https://node-express-244.herokuapp.com/auth/login
 
 body: {
-    "username": "test",
+    "email": "test@gmail.com",
     "password": "123"
 }
 ```
@@ -71,8 +71,8 @@ Sample Response – Error
 {
     "errors": [
         {
-            "msg": "Username field is required",
-            "param": "username",
+            "msg": "Email field is required",
+            "param": "email",
             "location": "body"
         },
         {
